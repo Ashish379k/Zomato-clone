@@ -16,9 +16,9 @@ function Header () {
             </div>
             <div className="col-12">
                 <div className="row">
-                    <div className="col-6 srch m-auto">
+                    <div className="col-sm-10 col-md-6 srch m-auto">
                         <div className="row">
-                            <select className="custom-select col-4">
+                            <select className="custom-select col-sm-12 col-md-4 my-2 m-auto">
                                 <option className="dropdown-item" disabled> Select your location</option>
                                 <option className="dropdown-item">place#1</option>
                                 <option className="dropdown-item">place#2</option>
@@ -26,7 +26,7 @@ function Header () {
                                 <option className="dropdown-item">place#4</option>
                                 <option className="dropdown-item">place#5</option>
                             </select>
-                            <div className="input-group mb-3 col-7">
+                            <div className="input-group mb-3 col-md-7">
                                 <input type="text" className="form-control" placeholder="Search for restraunt or cusines." aria-label="Recipient's username" aria-describedby="button-addon2"/>
                                 <div className="input-group-append">
                                     <button className="btn btn-outline-light bg-danger" type="button" id="button-addon2">Search</button>

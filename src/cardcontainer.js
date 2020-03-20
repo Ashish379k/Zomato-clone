@@ -4,14 +4,14 @@ function CardContainer (){
     return (
         <div className="container">
             <div className="row">
-                <div className="col-8 text-center">
+                <div className="col-sm-12 col-md-8 text-center">
                 <div className="text-left">
                     <h4>Collections.</h4>
                     <p className ="tect-secondary">Explore curated lists of top restaurants, cafes, pubs, and bars in Patna, based on trends</p>
                 </div>
                     <div className="row">
-                        <div className="col-6">
-                            <div className="card mb-3" style={{width:'340px'}}>
+                        <div className="col-sm-12 col-md-6">
+                            <div className="card mb-3" style={{width:'100%'}}>
                                 <div className="row no-gutters">
                                     <div className="col-md-5">
                                         <img src="https://asset1.cxnmarksandspencer.com/is/image/mands/20190925_FTO_Refresh_SB-21789_03?wid=700&qlt=100&fmt=pjpeg" class="card-img cardimg" alt="trend"/>
@@ -25,8 +25,8 @@ function CardContainer (){
                                 </div>
                             </div>
                         </div>
-                        <div className="col-6">
-                            <div className="card mb-3" style={{width:'350px'}}>
+                        <div className="col-sm-12 col-md-6">
+                            <div className="card mb-3" style={{width:'100%'}}>
                                 <div className="row no-gutters">
                                     <div className="col-md-5">
                                         <img src="https://thenypost.files.wordpress.com/2019/09/junk-food-turns-kid-blind.jpg?quality=90&strip=all&w=618&h=410&crop=1" class="card-img cardimg" alt="2"/>
@@ -42,8 +42,8 @@ function CardContainer (){
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-6">
-                            <div className="card mb-3" style={{width:'340px'}}>
+                        <div className="col-sm-12 col-md-6">
+                            <div className="card mb-3" style={{width:'100%'}}>
                                 <div className="row no-gutters">
                                     <div className="col-md-5">
                                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRTKnC0Wig7GqMV3Qkp4MLZdhpWbsWEFpFJEoLcjga6S2ezE8a8" class="card-img cardimg" alt="3"/>
@@ -57,8 +57,8 @@ function CardContainer (){
                                 </div>
                             </div>
                         </div>
-                        <div className="col-6">
-                            <div className="card mb-3" style={{width:'350px'}}>
+                        <div className="col-sm-12 col-md-6">
+                            <div className="card mb-3" style={{width:'100%'}}>
                                 <div className="row no-gutters">
                                     <div className="col-md-5">
                                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRZlFeX7rcU2J2xNpPj7hS6Op1GxOwp0gUHRWjNn88lUY4sJoH0" class="card-img cardimg" alt="4"/>
@@ -79,7 +79,7 @@ function CardContainer (){
                         </div>
                     </div>
                 </div>
-                <div className="col-4 text-center">
+                <div className="col-sm-12 col-md-4 text-center my-2">
                     <div className="text-left">
                         <h4>Order Food online.</h4>
                         <p>Best order delivering at your door step.</p>

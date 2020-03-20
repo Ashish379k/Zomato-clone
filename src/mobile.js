@@ -4,13 +4,13 @@ function Mobile () {
 return (
     <div className = "container border">
         <div className="row">
-            <div className = "col-5 m-auto text-right">
+            <div className = "sol-sm-12 col-md-5 m-auto text-right">
                 <img src = "https://www.uberdoo.com/img/header_mobile_img.png" className = "my-4 mobile" alt = "mobile"/>
             </div>
-            <div className = "col-5 m-auto">
+            <div className = "col-sm-12 col-md-5 m-auto">
                 <h4>Get the Zomato app.</h4>
                 <p className = "text-secondary" >See menus and for near by restraunts and bookmark your favourite place on the go.</p>
-                <p style = {{fontSize:'14px'}}>We'll send you a link. Open it in your phone to download the app.</p>
+                <p style = {{fontSize:'14px'}}>-We'll send you a link. Open it in your phone to download the app.</p>
                 <div className="input-group mb-3">
                     <div className="input-group-prepend">
                         <span className="input-group-text">+91</span>
